@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jeremylucero/Downloads/HWChallenges/Homework1/Chapter1/doublylink'
+relocations:     []
+...

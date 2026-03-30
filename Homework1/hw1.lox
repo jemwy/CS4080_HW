@@ -1,0 +1,34 @@
+var x = "argument";
+
+fun scopeCheck(arg) {
+    arg = "argumentChanged";
+}
+
+scopeCheck(x);
+
+print x;
+
+var a = "outer";
+
+{
+    var b = "block";
+    a = "changed";
+}
+
+print a;
+print b;
+
+var a = 15;
+var b = 13;
+print (a + b) / 2;
+
+print a + "4";
+
+print unInitialized;
+
+fun addition(a, b, c){
+    return a + b + c;
+}
+
+print addition(1, 2, 3);
+print addition(1, 2);
