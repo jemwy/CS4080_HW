@@ -1,0 +1,17 @@
+class Circle {
+  init(radius) {
+    this._radius = radius;
+  }
+
+  radius {
+    return this._radius;
+  }
+
+  radius(value) {
+    this._radius = value;
+  }
+}
+
+var c = Circle(4);
+c.radius = 10;
+print c.radius;
