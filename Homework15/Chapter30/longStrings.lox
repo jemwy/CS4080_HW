@@ -1,0 +1,6 @@
+var i = 0;
+while (i < 1000000) {
+  "this is a longer string";
+  "another longer string";
+  i = i + 1;
+}

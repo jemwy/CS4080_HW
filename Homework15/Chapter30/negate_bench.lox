@@ -1,0 +1,9 @@
+var i = 0;
+var x = 1;
+
+while (i < 10000000) {
+  x = -x;
+  i = i + 1;
+}
+
+print x;
