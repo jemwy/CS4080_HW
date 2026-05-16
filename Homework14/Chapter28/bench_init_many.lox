@@ -1,0 +1,13 @@
+class Box {
+  init(value) {
+    this.value = value;
+  }
+}
+
+var i = 0;
+while (i < 100000) {
+  Box(i);
+  i = i + 1;
+}
+
+print "done";
